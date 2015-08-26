@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GlassRoom_Core
+namespace GlassHouse_Core.Integration
 {
-    public class Class1
+    class O365
     {
     }
 }
