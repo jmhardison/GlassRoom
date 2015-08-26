@@ -1,16 +1,12 @@
-language: c
-
-sudo: false
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-install:
-
-script:
+language: csharp
+solution: Source/GlassRoom/GlassRoom.sln
+before_install:
+  - sudo apt-get install nunit-console
+before_script:
+  - nuget restore Source/GlassRoom/GlassRoom.sln
+after_script:
+  #- nunit-console Tests/bin/Release/Tests.dll
   
-after_success:
-  
-
 # branch whitelist, only for GitHub Pages
 branches:
   only:
