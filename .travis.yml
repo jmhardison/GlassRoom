@@ -1,0 +1,23 @@
+language: ruby
+rvm:
+- 2.1
+
+sudo: false
+
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+install:
+
+script:
+  
+after_success:
+  
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - master
+
+env:
+  global:
+
