@@ -1,6 +1,8 @@
 ﻿{
   "dependencies": {
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+    "Microsoft.Office365.OAuth.Windows": "1.0.22",
+    "Microsoft.Office365.OutlookServices": "1.0.35"
   },
   "frameworks": {
     "uap10.0": {}

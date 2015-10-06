@@ -29,6 +29,14 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/2.10.10910.1511": {
+        "compile": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        },
+        "runtime": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        }
+      },
       "Microsoft.NETCore/5.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
@@ -163,6 +171,208 @@
           "System.Xml.XmlSerializer": "[4.0.10, )"
         }
       },
+      "Microsoft.OData.Client/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Core": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "resource": {
+          "lib/portable-net45+wp8+win8+wpa/de/Microsoft.OData.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net45+wp8+win8+wpa/es/Microsoft.OData.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.OData.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net45+wp8+win8+wpa/it/Microsoft.OData.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.OData.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.OData.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.OData.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Core/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Edm": "[6.11.0, 6.11.0]",
+          "Microsoft.Spatial": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Edm/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.ProxyExtensions/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.Client": "[6.11.0, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        }
+      },
+      "Microsoft.Office365.Discovery/1.0.21": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.5, )"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        }
+      },
+      "Microsoft.Office365.OAuth.Windows/1.0.22": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "[2.10.10910.1511, )",
+          "Microsoft.Office365.Discovery": "(, )"
+        },
+        "compile": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        }
+      },
+      "Microsoft.Office365.OutlookServices/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.ProxyExtensions": "[1.0.35, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        }
+      },
+      "Microsoft.Spatial/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -199,6 +409,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.5": {
+        "compile": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -1564,6 +1782,14 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/2.10.10910.1511": {
+        "compile": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        },
+        "runtime": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        }
+      },
       "Microsoft.NETCore/5.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
@@ -1741,6 +1967,208 @@
           "System.Xml.XmlSerializer": "[4.0.10, )"
         }
       },
+      "Microsoft.OData.Client/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Core": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "resource": {
+          "lib/portable-net45+wp8+win8+wpa/de/Microsoft.OData.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net45+wp8+win8+wpa/es/Microsoft.OData.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.OData.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net45+wp8+win8+wpa/it/Microsoft.OData.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.OData.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.OData.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.OData.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Core/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Edm": "[6.11.0, 6.11.0]",
+          "Microsoft.Spatial": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Edm/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.ProxyExtensions/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.Client": "[6.11.0, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        }
+      },
+      "Microsoft.Office365.Discovery/1.0.21": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.5, )"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        }
+      },
+      "Microsoft.Office365.OAuth.Windows/1.0.22": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "[2.10.10910.1511, )",
+          "Microsoft.Office365.Discovery": "(, )"
+        },
+        "compile": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        }
+      },
+      "Microsoft.Office365.OutlookServices/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.ProxyExtensions": "[1.0.35, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        }
+      },
+      "Microsoft.Spatial/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -1777,6 +2205,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.5": {
+        "compile": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -3189,6 +3625,14 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/2.10.10910.1511": {
+        "compile": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        },
+        "runtime": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        }
+      },
       "Microsoft.NETCore/5.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
@@ -3352,6 +3796,208 @@
           "System.Xml.XmlSerializer": "[4.0.10, )"
         }
       },
+      "Microsoft.OData.Client/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Core": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "resource": {
+          "lib/portable-net45+wp8+win8+wpa/de/Microsoft.OData.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net45+wp8+win8+wpa/es/Microsoft.OData.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.OData.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net45+wp8+win8+wpa/it/Microsoft.OData.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.OData.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.OData.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.OData.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Core/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Edm": "[6.11.0, 6.11.0]",
+          "Microsoft.Spatial": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Edm/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.ProxyExtensions/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.Client": "[6.11.0, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        }
+      },
+      "Microsoft.Office365.Discovery/1.0.21": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.5, )"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        }
+      },
+      "Microsoft.Office365.OAuth.Windows/1.0.22": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "[2.10.10910.1511, )",
+          "Microsoft.Office365.Discovery": "(, )"
+        },
+        "compile": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        }
+      },
+      "Microsoft.Office365.OutlookServices/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.ProxyExtensions": "[1.0.35, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        }
+      },
+      "Microsoft.Spatial/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -3388,6 +4034,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.5": {
+        "compile": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -4786,6 +5440,14 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/2.10.10910.1511": {
+        "compile": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        },
+        "runtime": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        }
+      },
       "Microsoft.NETCore/5.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
@@ -4968,6 +5630,208 @@
           "runtimes/win10-x64/native/_._": {}
         }
       },
+      "Microsoft.OData.Client/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Core": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "resource": {
+          "lib/portable-net45+wp8+win8+wpa/de/Microsoft.OData.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net45+wp8+win8+wpa/es/Microsoft.OData.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.OData.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net45+wp8+win8+wpa/it/Microsoft.OData.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.OData.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.OData.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.OData.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Core/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Edm": "[6.11.0, 6.11.0]",
+          "Microsoft.Spatial": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Edm/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.ProxyExtensions/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.Client": "[6.11.0, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        }
+      },
+      "Microsoft.Office365.Discovery/1.0.21": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.5, )"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        }
+      },
+      "Microsoft.Office365.OAuth.Windows/1.0.22": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "[2.10.10910.1511, )",
+          "Microsoft.Office365.Discovery": "(, )"
+        },
+        "compile": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        }
+      },
+      "Microsoft.Office365.OutlookServices/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.ProxyExtensions": "[1.0.35, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        }
+      },
+      "Microsoft.Spatial/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -5004,6 +5868,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.5": {
+        "compile": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -6416,6 +7288,14 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/2.10.10910.1511": {
+        "compile": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        },
+        "runtime": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        }
+      },
       "Microsoft.NETCore/5.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
@@ -6579,6 +7459,208 @@
           "System.Xml.XmlSerializer": "[4.0.10, )"
         }
       },
+      "Microsoft.OData.Client/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Core": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "resource": {
+          "lib/portable-net45+wp8+win8+wpa/de/Microsoft.OData.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net45+wp8+win8+wpa/es/Microsoft.OData.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.OData.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net45+wp8+win8+wpa/it/Microsoft.OData.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.OData.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.OData.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.OData.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Core/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Edm": "[6.11.0, 6.11.0]",
+          "Microsoft.Spatial": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Edm/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.ProxyExtensions/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.Client": "[6.11.0, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        }
+      },
+      "Microsoft.Office365.Discovery/1.0.21": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.5, )"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        }
+      },
+      "Microsoft.Office365.OAuth.Windows/1.0.22": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "[2.10.10910.1511, )",
+          "Microsoft.Office365.Discovery": "(, )"
+        },
+        "compile": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        }
+      },
+      "Microsoft.Office365.OutlookServices/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.ProxyExtensions": "[1.0.35, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        }
+      },
+      "Microsoft.Spatial/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -6615,6 +7697,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.5": {
+        "compile": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -8013,6 +9103,14 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/2.10.10910.1511": {
+        "compile": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        },
+        "runtime": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        }
+      },
       "Microsoft.NETCore/5.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
@@ -8195,6 +9293,208 @@
           "runtimes/win10-x86/native/_._": {}
         }
       },
+      "Microsoft.OData.Client/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Core": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "resource": {
+          "lib/portable-net45+wp8+win8+wpa/de/Microsoft.OData.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net45+wp8+win8+wpa/es/Microsoft.OData.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.OData.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net45+wp8+win8+wpa/it/Microsoft.OData.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.OData.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.OData.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.OData.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Core/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Edm": "[6.11.0, 6.11.0]",
+          "Microsoft.Spatial": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Edm/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.ProxyExtensions/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.Client": "[6.11.0, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        }
+      },
+      "Microsoft.Office365.Discovery/1.0.21": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.5, )"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        }
+      },
+      "Microsoft.Office365.OAuth.Windows/1.0.22": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "[2.10.10910.1511, )",
+          "Microsoft.Office365.Discovery": "(, )"
+        },
+        "compile": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        }
+      },
+      "Microsoft.Office365.OutlookServices/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.ProxyExtensions": "[1.0.35, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        }
+      },
+      "Microsoft.Spatial/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -8231,6 +9531,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.5": {
+        "compile": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -9643,6 +10951,14 @@
           "lib/netcore50/Microsoft.CSharp.dll": {}
         }
       },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/2.10.10910.1511": {
+        "compile": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        },
+        "runtime": {
+          "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd": {}
+        }
+      },
       "Microsoft.NETCore/5.0.0": {
         "dependencies": {
           "Microsoft.CSharp": "[4.0.0, )",
@@ -9806,6 +11122,208 @@
           "System.Xml.XmlSerializer": "[4.0.10, )"
         }
       },
+      "Microsoft.OData.Client/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Core": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll": {}
+        },
+        "resource": {
+          "lib/portable-net45+wp8+win8+wpa/de/Microsoft.OData.Client.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net45+wp8+win8+wpa/es/Microsoft.OData.Client.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.OData.Client.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net45+wp8+win8+wpa/it/Microsoft.OData.Client.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.OData.Client.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.OData.Client.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.OData.Client.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.OData.Client.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Core/6.11.0": {
+        "dependencies": {
+          "Microsoft.OData.Edm": "[6.11.0, 6.11.0]",
+          "Microsoft.Spatial": "[6.11.0, 6.11.0]"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.Edm/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.OData.ProxyExtensions/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.Client": "[6.11.0, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll": {}
+        }
+      },
+      "Microsoft.Office365.Discovery/1.0.21": {
+        "dependencies": {
+          "Newtonsoft.Json": "[6.0.5, )"
+        },
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll": {}
+        }
+      },
+      "Microsoft.Office365.OAuth.Windows/1.0.22": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "[2.10.10910.1511, )",
+          "Microsoft.Office365.Discovery": "(, )"
+        },
+        "compile": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        },
+        "runtime": {
+          "lib/win81/Microsoft.Office365.OAuth.dll": {},
+          "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll": {}
+        }
+      },
+      "Microsoft.Office365.OutlookServices/1.0.35": {
+        "dependencies": {
+          "Microsoft.OData.ProxyExtensions": "[1.0.35, )"
+        },
+        "compile": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll": {}
+        }
+      },
+      "Microsoft.Spatial/6.11.0": {
+        "compile": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll": {}
+        },
+        "resource": {
+          "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "Microsoft.VisualBasic/10.0.0": {
         "dependencies": {
           "System.Collections": "[4.0.10, )",
@@ -9842,6 +11360,14 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.5": {
+        "compile": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcore45/Newtonsoft.Json.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -11256,6 +12782,23 @@
         "ref/xamarinmac20/_._"
       ]
     },
+    "Microsoft.IdentityModel.Clients.ActiveDirectory/2.10.10910.1511": {
+      "sha512": "phZ43CrPPOtozwSpSqrBlY6hIt2kwJHZRitJ3zqKnqy59N9oXI9z0iBbsVs9flUTsdq3vxrI/vu8B94XhE5EkQ==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll",
+        "lib/net45/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd",
+        "lib/netcore45/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "lib/wpa81/Microsoft.IdentityModel.Clients.ActiveDirectory.winmd",
+        "lib/wpa81/Microsoft.IdentityModel.Clients.ActiveDirectory.XML",
+        "Microsoft.IdentityModel.Clients.ActiveDirectory.nuspec",
+        "package/services/metadata/core-properties/e61bce73e30247a38d97454d2531719d.psmdcp"
+      ]
+    },
     "Microsoft.NETCore/5.0.0": {
       "sha512": "QQMp0yYQbIdfkKhdEE6Umh2Xonau7tasG36Trw/YlHoWgYQLp7T9L+ZD8EPvdj5ubRhtOuKEKwM7HMpkagB9ZA==",
       "type": "Package",
@@ -11805,6 +13348,154 @@
         "runtimes/win8-x86/native/api-ms-win-service-private-l1-1-1.dll"
       ]
     },
+    "Microsoft.OData.Client/6.11.0": {
+      "sha512": "uQL7+lh9FBzcdDsEC2MsXOobJ9WIEgXJSwC4y1nE4kMTR/3Yw0hQpUoPk5bZ9/7Dh0DbrtM0HW+c3pCJLTuaiw==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/net40/de/Microsoft.OData.Client.resources.dll",
+        "lib/net40/es/Microsoft.OData.Client.resources.dll",
+        "lib/net40/fr/Microsoft.OData.Client.resources.dll",
+        "lib/net40/it/Microsoft.OData.Client.resources.dll",
+        "lib/net40/ja/Microsoft.OData.Client.resources.dll",
+        "lib/net40/ko/Microsoft.OData.Client.resources.dll",
+        "lib/net40/Microsoft.OData.Client.dll",
+        "lib/net40/Microsoft.OData.Client.xml",
+        "lib/net40/ru/Microsoft.OData.Client.resources.dll",
+        "lib/net40/zh-Hans/Microsoft.OData.Client.resources.dll",
+        "lib/net40/zh-Hant/Microsoft.OData.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/de/Microsoft.OData.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/es/Microsoft.OData.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/fr/Microsoft.OData.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/it/Microsoft.OData.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ja/Microsoft.OData.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/ko/Microsoft.OData.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.dll",
+        "lib/portable-net45+wp8+win8+wpa/Microsoft.OData.Client.xml",
+        "lib/portable-net45+wp8+win8+wpa/ru/Microsoft.OData.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/zh-Hans/Microsoft.OData.Client.resources.dll",
+        "lib/portable-net45+wp8+win8+wpa/zh-Hant/Microsoft.OData.Client.resources.dll",
+        "Microsoft.OData.Client.nuspec",
+        "package/services/metadata/core-properties/4a0f23db1c1d4a2a8e098e99bd63adee.psmdcp"
+      ]
+    },
+    "Microsoft.OData.Core/6.11.0": {
+      "sha512": "W3N+kg9BVUCRwR862hedw8dieYucwYNX/J4ksUYBI7pQtgDRU+kBMYmZn8HmUt5hwwzdK1CABT9zyMkBZ4Ym6g==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Core.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Core.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Core.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Core.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Core.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Core.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Core.xml",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Core.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Core.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Core.resources.dll",
+        "Microsoft.OData.Core.nuspec",
+        "package/services/metadata/core-properties/6d3fec78d5e94f09ab51319fbccb31d8.psmdcp"
+      ]
+    },
+    "Microsoft.OData.Edm/6.11.0": {
+      "sha512": "b8/iK2wfb8f6ywFtE8anuve58FWHyE8OSLU0NQm+Agi7mBFqmm2Ay5JtcSBjfiPgzxNbg6eIbbTtJvUBgKrGRw==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.OData.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.OData.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.OData.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.OData.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.OData.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.OData.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.OData.Edm.xml",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.OData.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.OData.Edm.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.OData.Edm.resources.dll",
+        "Microsoft.OData.Edm.nuspec",
+        "package/services/metadata/core-properties/1bf6cc1f857b4a17ae77cbccd12d0b25.psmdcp"
+      ]
+    },
+    "Microsoft.OData.ProxyExtensions/1.0.35": {
+      "sha512": "AUwwV7G38PVzGNggcz/hBI4+U5t2YFRr9KDu1FmllochkXrUfRETygjod32Z7HJ7LkvZRzkXr5Gp+/E6nH8iUQ==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.OData.ProxyExtensions.dll",
+        "License-Stable.rtf",
+        "Microsoft.OData.ProxyExtensions.nuspec",
+        "package/services/metadata/core-properties/bb423d307ab84e049f5cd846c8f8f6dc.psmdcp"
+      ]
+    },
+    "Microsoft.Office365.Discovery/1.0.21": {
+      "sha512": "EdgB8bIMfnKl06zOugWsJ0Fb2kfXB5ZsgZhiaygWafwvYsR9aYgEAPqfvxhlGEzO15wPkX6+ugQRzFhD4j21hA==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/portable-net40+sl5+wp8+win8+MonoAndroid10+MonoTouch10+WindowsPhoneApp81/Microsoft.Office365.Discovery.dll",
+        "License-Stable.rtf",
+        "Microsoft.Office365.Discovery.nuspec",
+        "package/services/metadata/core-properties/b58fa26d9f724856bf479acd29b0060e.psmdcp"
+      ]
+    },
+    "Microsoft.Office365.OAuth.Windows/1.0.22": {
+      "sha512": "c/aQIGuLXBskOQI5MRG5N5hJCnijNbXc7fg4PK3njRRrM2ZmTJJGq4wfde6occRSURlQeHwS+OtMI7AxpWu/Ow==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/net45/Microsoft.Office365.OAuth.dll",
+        "lib/net45/Microsoft.Office365.OAuth.WindowsForms.dll",
+        "lib/win81/Microsoft.Office365.OAuth.dll",
+        "lib/win81/Microsoft.Office365.OAuth.WindowsStore.dll",
+        "lib/WindowsPhoneApp81/Microsoft.Office365.OAuth.dll",
+        "lib/WindowsPhoneApp81/Microsoft.Office365.OAuth.WindowsPhone.WinRT.dll",
+        "License-Stable.rtf",
+        "Microsoft.Office365.OAuth.Windows.nuspec",
+        "package/services/metadata/core-properties/8fe13d6858804cd580f6c9ac5cadc3f8.psmdcp"
+      ]
+    },
+    "Microsoft.Office365.OutlookServices/1.0.35": {
+      "sha512": "XASluAMNVcJXKToG1SnxdkX+OZj5iY8UF6prLSn8DwGsaLNwIhG6paKiE/Rq08dHOgHBDGzQ/aRT4xzUsFDWpQ==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10/Microsoft.Office365.OutlookServices.Portable.dll",
+        "License-Stable.rtf",
+        "Microsoft.Office365.OutlookServices.nuspec",
+        "package/services/metadata/core-properties/8e66815f77e54459bb1a7819940afe53.psmdcp"
+      ]
+    },
+    "Microsoft.Spatial/6.11.0": {
+      "sha512": "w3X8egnn06/WdIPDadIjv1gpwYu9h4Y90Wqy90Xg3iwtjdMJL1byItFcer5FVs2FiDFnGunipe1LanXUcJZe3g==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/portable-net40+sl5+wp8+win8+wpa/de/Microsoft.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/es/Microsoft.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/fr/Microsoft.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/it/Microsoft.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ja/Microsoft.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ko/Microsoft.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/Microsoft.Spatial.xml",
+        "lib/portable-net40+sl5+wp8+win8+wpa/ru/Microsoft.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hans/Microsoft.Spatial.resources.dll",
+        "lib/portable-net40+sl5+wp8+win8+wpa/zh-Hant/Microsoft.Spatial.resources.dll",
+        "Microsoft.Spatial.nuspec",
+        "package/services/metadata/core-properties/7a67dc5e873e4fc1ba0162905b4c4e13.psmdcp"
+      ]
+    },
     "Microsoft.VisualBasic/10.0.0": {
       "sha512": "5BEm2/HAVd97whRlCChU7rmSh/9cwGlZ/NTNe3Jl07zuPWfKQq5TUvVNUmdvmEe8QRecJLZ4/e7WF1i1O8V42g==",
       "type": "Package",
@@ -11866,6 +13557,31 @@
         "ref/net46/Microsoft.Win32.Primitives.dll",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._"
+      ]
+    },
+    "Newtonsoft.Json/6.0.5": {
+      "sha512": "gPrmi+71KZJ3oNJfbpCaFW0xMZQ/eT60fnOgULgoqPrmnuuoEzxxSNDkTrOC9MlnfQPhUnL3yUSkG34MbykMIA==",
+      "type": "Package",
+      "files": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.nuspec",
+        "package/services/metadata/core-properties/0abdbb176a984c66b7fe1ef90c24dd27.psmdcp",
+        "tools/install.ps1"
       ]
     },
     "System.AppContext/4.0.0": {
@@ -14566,8 +16282,9 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.CSharp >= 4.0.0",
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
+      "Microsoft.Office365.OAuth.Windows >= 1.0.22",
+      "Microsoft.Office365.OutlookServices >= 1.0.35"
     ],
     "UAP,Version=v10.0": []
   }
