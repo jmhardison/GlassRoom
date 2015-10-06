@@ -110,7 +110,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <None Include="GlassRoomCore.snk" />
+    <None Include="GlassRoom_TemporaryKey.snk" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
@@ -125,7 +125,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>GlassRoomCore.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>GlassRoom_TemporaryKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
